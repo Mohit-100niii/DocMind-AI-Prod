@@ -1,11 +1,11 @@
-<img width="1885" height="888" alt="image" src="https://github.com/user-attachments/assets/da1f1b97-5537-4c71-bbd0-e936a13344c5" />
 
-
-<img width="1871" height="887" alt="image" src="https://github.com/user-attachments/assets/060fcd24-bc68-4717-b8db-b0e92e6c9979" />
 # 📄 DocMind AI
 
 An AI-powered document assistant that enables users to upload PDF documents and chat with them using natural language. Built using **FastAPI**, **Next.js**, **ChromaDB**, **Sentence Transformers**, and **LLMs** with a Retrieval-Augmented Generation (RAG) pipeline.
 
+<img width="1885" height="888" alt="image" src="https://github.com/user-attachments/assets/da1f1b97-5537-4c71-bbd0-e936a13344c5" />
+
+<img width="1871" height="887" alt="image" src="https://github.com/user-attachments/assets/060fcd24-bc68-4717-b8db-b0e92e6c9979" />
 ## ✨ Features
 
 - 📄 Upload PDF documents
@@ -81,27 +81,6 @@ LLM
 Streaming Response
 ```
 
----
-
-## 📂 Project Structure
-
-```
-DocMind-AI-Prod
-│
-├── frontend/
-│   ├── app/
-│   ├── components/
-│   └── ...
-│
-├── docmind_ai_backend/
-│   ├── database/
-│   ├── service/
-│   ├── documents/
-│   ├── main.py
-│   └── ...
-│
-└── README.md
-```
 
 ---
 
@@ -132,35 +111,11 @@ npm run dev
 
 ---
 
-## 🔑 Environment Variables
-
-Create a `.env` file inside the backend directory.
-
-```env
-OPENROUTER_API_KEY=your_api_key
-```
 
 ---
 
-## 📌 API Endpoints
 
-| Method | Endpoint | Description |
-|---------|----------|-------------|
-| POST | `/docMind/upload-pdf` | Upload a PDF |
-| GET | `/get-Queryanswer` | Ask questions about the uploaded document |
 
----
-
-## 🚀 Future Improvements
-
-- Authentication
-- Multiple document support
-- Chat history
-- Source citations
-- OCR support
-- Docker deployment
-
----
 
 ## 📄 License
 
