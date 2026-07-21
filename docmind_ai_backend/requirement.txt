@@ -1,0 +1,6 @@
+pypdf
+langchain_text_splitters
+sentence_transformers
+faiss-cpu
+dotenv
+python-multipart
