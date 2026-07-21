@@ -4,3 +4,5 @@ sentence_transformers
 faiss-cpu
 dotenv
 python-multipart
+fastapi
+uvicorn
